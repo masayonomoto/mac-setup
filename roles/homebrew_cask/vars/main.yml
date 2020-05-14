@@ -8,7 +8,6 @@ homebrew_cask_packages:
   - { name: visual-studio-code }
   - { name: cyberduck }
   - { name: adobe-acrobat-reader }
-  - { name: virtualbox }
   - { name: zoomus }
   - { name: mendeley }
   - { name: singularity }
