@@ -3,3 +3,8 @@ mas_packages:
   - { id: 405843582, name: alfred }
   - { id: 441258766, name: magnet }
   - { id: 557168941, name: tweetbot2 }
+  - { id: 409183694, name: keynote }
+  - { id: 409201541, name: pages }
+  - { id: 409203825, name: numbers }
+  - { id: 539883307, name: line }
+ 

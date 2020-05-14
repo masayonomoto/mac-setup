@@ -3,15 +3,14 @@ homebrew_cask_packages:
   - { name: google-chrome }
   - { name: google-backup-and-sync }
   - { name: docker }
-  - { name: iterm2 }
-  - { name: firefox }
   - { name: gimp }
   - { name: karabiner-elements }
   - { name: visual-studio-code }
   - { name: cyberduck }
-  - { name: musescore }
   - { name: adobe-acrobat-reader }
-  - { name: steam }
-  - { name: native-access }
-  - { name: rekordbox }
+  - { name: virtualbox }
   - { name: zoomus }
+  - { name: mendeley }
+  - { name: singularity }
+  - { name: dropbox }
+  

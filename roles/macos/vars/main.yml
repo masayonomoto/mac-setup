@@ -1,5 +1,4 @@
 links:
-  - { src: ~/mac-setup/dotfiles/zshrc, dest: ~/.zshrc }
   - { src: ~/mac-setup/dotfiles/vimrc, dest: ~/.vimrc }
 dirs:
   - { path: ~/projects }

@@ -18,7 +18,7 @@ if ! command_exists git ; then
 fi
 
 if [ ! -d ./mac-setup ]; then
-  git clone https://github.com/nomotohiroki/mac-setup.git
+  git clone -b masayomac https://github.com/masayonomoto/mac-setup.git
 fi
 
 /bin/bash ./mac-setup/setup.sh

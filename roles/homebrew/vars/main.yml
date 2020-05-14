@@ -1,15 +1,10 @@
 packages:
   - { name: wget }
-  - { name: anyenv }
-  - { name: yarn }
+  - { name: pyenv }
+  - { name: python }
   - { name: openssl }
-  - { name: mas }
-  - { name: awscli }
-  - { name: fzf }
+  - { name: mysql }
+  - { name: sqlite }
   - { name: docker }
-  - { name: ffmpeg }
-  - { name: jq }
-  - { name: tree }
   - { name: pwgen }
-  - { name: emacs }
-  - { name: heroku }
+  - { name: mas }
