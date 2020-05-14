@@ -7,4 +7,4 @@ packages:
   - { name: sqlite }
   - { name: docker }
   - { name: pwgen }
-  - { name: mas }
+
