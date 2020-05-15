@@ -11,6 +11,5 @@ homebrew_cask_packages:
   - { name: virtualbox }
   - { name: zoomus }
   - { name: mendeley }
-  - { name: singularity }
   - { name: dropbox }
   
