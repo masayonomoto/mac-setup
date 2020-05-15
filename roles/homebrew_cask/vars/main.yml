@@ -10,6 +10,5 @@ homebrew_cask_packages:
   - { name: adobe-acrobat-reader }
   - { name: zoomus }
   - { name: mendeley }
-  - { name: singularity }
   - { name: dropbox }
   
