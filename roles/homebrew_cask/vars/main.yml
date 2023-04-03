@@ -7,3 +7,4 @@ homebrew_cask_packages:
   - { name: cyberduck }
   - { name: adobe-acrobat-reader }
   - { name: zoom }
+  - { name: slack }
