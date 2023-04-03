@@ -12,4 +12,3 @@ packages:
   - { name: tree }
   - { name: pwgen }
   - { name: emacs }
-  - { name: heroku }
