@@ -1,10 +1,8 @@
 packages:
-  - { name: wget }
+  - { name: tree }
   - { name: pyenv }
-  - { name: python }
-  - { name: openssl }
-  - { name: mysql }
-  - { name: sqlite }
-  - { name: docker }
-  - { name: pwgen }
+  - { name: poetry }
+  - { name: pyenv-virtualenv }
+  - { name: mypy }
+  - { name: jq }
 
