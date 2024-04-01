@@ -3,6 +3,6 @@ homebrew_cask_packages:
   - { name: google-chrome }
   - { name: visual-studio-code }
   - { name: adobe-acrobat-reader }
-  - { name: zoomus }
+  - { name: zoom }
   - { name: dropbox }
   - { name: slack }

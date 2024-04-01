@@ -1,5 +1,7 @@
 #!/bin/bash
 
+softwareupdate --install-rosetta
+
 function command_exists {
   command -v "$1" > /dev/null;
 }
