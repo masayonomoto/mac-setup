@@ -6,3 +6,4 @@ homebrew_cask_packages:
   - { name: zoom }
   - { name: dropbox }
   - { name: slack }
+  - { name: rancher }
