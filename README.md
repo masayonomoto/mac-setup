@@ -5,6 +5,9 @@
 ```
 
 # for additional setup
+追加アプリを入れる場合
+1. varsに追加
+2. 下記を実行
 ```
 ansible-playbook ./mac.yml -i ./inventory
 ```
