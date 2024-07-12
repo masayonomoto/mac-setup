@@ -11,3 +11,14 @@
 ```
 ansible-playbook ./mac.yml -i ./inventory
 ```
+
+# git-promptの設定（タブ補完、ブランチ表示）
+以下の各コマンドを実行
+```
+mkdir ~/.zsh
+cd ~/.zsh
+
+curl -o git-prompt.sh https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
+curl -o git-completion.bash https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
+curl -o _git https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.zsh
+```
