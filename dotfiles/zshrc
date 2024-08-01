@@ -24,5 +24,15 @@ GIT_PS1_SHOWUNTRACKEDFILES=true
 GIT_PS1_SHOWSTASHSTATE=true
 GIT_PS1_SHOWUPSTREAM=auto
 
+_git_repo_name() {
+    gittopdir=$(git rev-parse --git-dir 2> /dev/null)
+    if [[ "foo$gittopdir" == "foo.git" ]];then
+        echo 'basename $(pwd)'
+    elif [[ "foo$gittopdir" != "foo" ]];then
+        echo 'dirname $gittopdir | xargs basename'
+    fi
+}
+
 # プロンプトの表示設定(好きなようにカスタマイズ可)
-setopt PROMPT_SUBST ; PS1='%F{green}${PWD#*projects/}%f %F{blue}${vcs_info_msg_0[1,4]}%f \$ '
+setopt PROMPT_SUBST ; PS1='%F{green}${PWD#*projects/}%f %F{blue}$(_git_repo_name):$(__git_ps1 "%s)")%f
+\$ '
