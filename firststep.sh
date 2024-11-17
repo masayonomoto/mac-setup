@@ -7,7 +7,7 @@ function command_exists {
 }
 
 if ! command_exists brew ; then
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   brew doctor
   brew update
   brew upgrade --cleanup
