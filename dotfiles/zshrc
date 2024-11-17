@@ -4,10 +4,10 @@ eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
 
 # poetry
-PATH="/Users/masayonomoto/.local/bin:$PATH"%
+PATH="~/.local/bin:$PATH"%
 
 ### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
-export PATH="/Users/masayonomoto/.rd/bin:$PATH"
+export PATH="~/.rd/bin:$PATH"
 ### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
 
 # git-promptの読み込み
