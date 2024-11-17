@@ -22,3 +22,7 @@ curl -o git-prompt.sh https://raw.githubusercontent.com/git/git/master/contrib/c
 curl -o git-completion.bash https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
 curl -o _git https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.zsh
 ```
+
+#20241117MacStudioに使用した際のメモ
+caskのslackとrancherでエラーが出てmacosのセットアップは動作せず。
+一時的にmac.ymlのrollsをmacosだけにすることで動作
