@@ -1,14 +1,9 @@
 homebrew_cask_packages:
   - { name: google-japanese-ime }
   - { name: google-chrome }
-  - { name: google-backup-and-sync }
-  - { name: docker }
-  - { name: gimp }
-  - { name: karabiner-elements }
   - { name: visual-studio-code }
-  - { name: cyberduck }
   - { name: adobe-acrobat-reader }
-  - { name: zoomus }
-  - { name: mendeley }
+  - { name: zoom }
   - { name: dropbox }
-  
+  - { name: slack }
+  - { name: rancher }

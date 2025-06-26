@@ -6,6 +6,8 @@ function command_exists {
 
 cd $(dirname $0)
 
+git pull
+
 if ! command_exists ansible ; then
   echo "--- Install Ansible ---"
   brew install ansible
