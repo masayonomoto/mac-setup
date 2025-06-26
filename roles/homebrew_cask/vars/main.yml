@@ -7,3 +7,4 @@ homebrew_cask_packages:
   - { name: dropbox }
   - { name: slack }
   - { name: rancher }
+  - { name: discord }
