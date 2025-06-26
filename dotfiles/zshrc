@@ -4,14 +4,15 @@ eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
 
 # poetry
-PATH="~/.local/bin:$PATH"%
+export PATH="$HOME/.local/bin:$PATH"
 
 ### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
 export PATH="~/.rd/bin:$PATH"
 ### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
 
 # git-promptの読み込み
-source ~/.zsh/git-prompt.sh
+# source ~/.zsh/git-prompt.sh クリーンインストールしたらなぜかファイルの位置が変わっていたので下記に変更
+source /System/Volumes/Data/Library/Developer/CommandLineTools/usr/share/git-core/git-prompt.sh
 
 # git-completionの読み込み
 fpath=(~/.zsh $fpath)
