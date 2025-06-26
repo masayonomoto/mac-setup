@@ -1,14 +1,7 @@
 packages:
-  - { name: wget }
-  - { name: anyenv }
-  - { name: yarn }
-  - { name: openssl }
-  - { name: mas }
-  - { name: awscli }
-  - { name: fzf }
-  - { name: docker }
-  - { name: ffmpeg }
-  - { name: jq }
   - { name: tree }
-  - { name: pwgen }
-  - { name: emacs }
+  - { name: pyenv }
+  - { name: poetry }
+  - { name: pyenv-virtualenv }
+  - { name: mypy }
+  - { name: jq }

@@ -1,5 +1,38 @@
-alias ls='ls -F'
-alias ll='ls -l'
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
+eval "$(pyenv init -)"
 
-export PATH="$HOME/.anyenv/bin:/usr/local/sbin:$PATH"
-eval "$(anyenv init -)" 
+# poetry
+PATH="~/.local/bin:$PATH"%
+
+### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
+export PATH="~/.rd/bin:$PATH"
+### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
+
+# git-promptの読み込み
+source ~/.zsh/git-prompt.sh
+
+# git-completionの読み込み
+fpath=(~/.zsh $fpath)
+zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
+autoload -Uz compinit && compinit
+
+# プロンプトのオプション表示設定
+GIT_PS1_SHOWDIRTYSTATE=true
+GIT_PS1_SHOWUNTRACKEDFILES=true
+GIT_PS1_SHOWSTASHSTATE=true
+GIT_PS1_SHOWUPSTREAM=auto
+
+_git_repo_name() {
+    gittopdir=$(git rev-parse --git-dir 2> /dev/null)
+    if [[ "foo$gittopdir" == "foo.git" ]]; then
+        echo `basename $(pwd)`
+    elif [[ "foo$gittopdir" != "foo" ]]; then
+        echo `dirname $gittopdir | xargs basename`
+    fi
+}
+
+# プロンプトの表示設定(好きなようにカスタマイズ可)
+setopt PROMPT_SUBST ; PS1='%F{green}${PWD#*projects/}%f %F{blue}$(_git_repo_name):$(__git_ps1 "(%s)")%f
+\$ '
