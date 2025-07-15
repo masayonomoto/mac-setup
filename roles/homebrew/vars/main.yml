@@ -1,7 +1,7 @@
 packages:
   - { name: tree }
   - { name: pyenv }
-  - { name: poetry }
+#  - { name: poetry }
   - { name: pyenv-virtualenv }
   - { name: mypy }
   - { name: jq }
